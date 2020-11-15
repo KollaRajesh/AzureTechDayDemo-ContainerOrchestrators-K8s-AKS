@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-15T06:47:57.223Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="8SSICfqD4OJcCGbTtoHc" version="13.9.2" type="github" pages="3">
+<mxfile modified="2020-11-15T06:48:25.384Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="aY0UJ-gNHoanbE4YJGMn" version="13.9.2" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1819" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -559,6 +559,14 @@
         <mxCell id="vGRYX6WJwNeoR30LITok-33" value="Results" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;fillColor=#7EA6E0;" vertex="1" parent="GaAKfoupoFwJPXLwTz-Q-1">
           <mxGeometry x="70" y="360" width="100" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jksgYplZyOMByE_GCAdY" name="K8s architecture">
+    <mxGraphModel dx="1819" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="o5c_36QuPgtL-PP_89I7-0" />
+        <mxCell id="o5c_36QuPgtL-PP_89I7-1" parent="o5c_36QuPgtL-PP_89I7-0" />
       </root>
     </mxGraphModel>
   </diagram>
