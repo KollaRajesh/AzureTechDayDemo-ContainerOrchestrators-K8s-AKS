@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-15T10:29:16.557Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="nqdqbgrTjmArkP47-IoE" version="13.9.8" type="github" pages="7">
+<mxfile modified="2020-11-15T10:43:27.485Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="JW1Pu_uJF0RGKj2OF0Eh" version="13.9.8" type="github" pages="7">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1819" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -562,6 +562,65 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="d73RIG9SNxViJGsdKGmb" name="K8s Components">
+    <mxGraphModel dx="2496" dy="3287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="fe6ABaOvc7ft7hH_d459-0" />
+        <mxCell id="fe6ABaOvc7ft7hH_d459-1" parent="fe6ABaOvc7ft7hH_d459-0" />
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-769" y="-2128" width="539" height="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-1" value="Pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-747.5" y="-2128" width="72" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-2" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-747.5" y="-1970" width="93.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-3" value="Ingress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-747.5" y="-1820" width="87.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-4" value="Configmap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-746.25" y="-1688" width="116" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-5" value="Secrets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-747.5" y="-1600" width="92" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-6" value="volumes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-747.5" y="-1490" width="102" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-7" value="Deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-747.5" y="-1370" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-8" value="&lt;span&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;Smallest unit of K8s&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;abstraction over container&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;usually 1 application container per&amp;nbsp; Pod .&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt; can run multiple container per pod&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;Each pod gets its own IP address&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt; New Ip address on re-creation&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-649" y="-2128" width="449" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-9" value="&lt;div&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- Abstraction layer on Pod in communication&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-	Has permanent \static IP address&amp;nbsp; with DNS name&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;Lifecycle of pod and service not connected&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-	Load balancer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-668" y="-1932" width="450" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-10" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Handles incoming requests&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Routed incoming request to the service based on routing rules&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-670" y="-1800" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-11" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;maintain external configuration of application&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-670" y="-1662" width="450" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-12" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Used to store secret data in base 64 encoded format&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-680.5" y="-1562" width="449" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="GKQuukm-Y2J_eNUcY7hA-13" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;attach physical drive\ storage on local drive \ on cloud&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;K8s doesn&#39;t manage data persistance&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-691.5" y="-1452" width="460" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="t3G8bSZMYmpiF_mvdIgg-0" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Define blueprint for app pods&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;can create deployment to deploy pod replica&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Abstraction of pods&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;for stateless apps&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-686" y="-1340" width="460" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="t3G8bSZMYmpiF_mvdIgg-1" value="Stateful Set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-747.5" y="-1240" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t3G8bSZMYmpiF_mvdIgg-2" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;DB can’t be replicate as database storage&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Keep data storage external to K8 cluster&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Maintain mechanism one pod will write database to avoid data inconsistency&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;for Stateful apps&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
+          <mxGeometry x="-701.5" y="-1190" width="460" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="vTaLZfeVgwihqMclgN-j" name="WorkerNode">
     <mxGraphModel dx="3346" dy="3287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1087,65 +1146,6 @@
         </mxCell>
         <mxCell id="8TaAaTo20YIWe6rLmn7o-9" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
           <mxGeometry x="-1245" y="-1388.25" width="30" height="26.5" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="d73RIG9SNxViJGsdKGmb" name="Page-7">
-    <mxGraphModel dx="2496" dy="3287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="fe6ABaOvc7ft7hH_d459-0" />
-        <mxCell id="fe6ABaOvc7ft7hH_d459-1" parent="fe6ABaOvc7ft7hH_d459-0" />
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-769" y="-2128" width="539" height="1138" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-1" value="Pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-747.5" y="-2128" width="72" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-2" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-747.5" y="-1970" width="93.5" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-3" value="Ingress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-747.5" y="-1820" width="87.5" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-4" value="Configmap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-746.25" y="-1688" width="116" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-5" value="Secrets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-746" y="-1530" width="92" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-6" value="volumes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-746" y="-1420" width="102" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-7" value="Deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-746" y="-1300" width="130" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-8" value="&lt;span&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;Smallest unit of K8s&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;abstraction over container&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;usually 1 application container per&amp;nbsp; Pod .&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt; can run multiple container per pod&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;Each pod gets its own IP address&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt; New Ip address on re-creation&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-649" y="-2128" width="449" height="158" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-9" value="&lt;div&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- Abstraction layer on Pod in communication&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-	Has permanent \static IP address&amp;nbsp; with DNS name&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-&lt;span&gt;	&lt;/span&gt;Lifecycle of pod and service not connected&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;-	Load balancer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-668" y="-1932" width="450" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-10" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Handles incoming requests&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Routed incoming request to the service based on routing rules&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-670" y="-1800" width="450" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-11" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;maintain external configuration of application&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;shared configuration between services &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;deployments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;shared configuration between services &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;deployments for different environments&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-670" y="-1662" width="450" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-12" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Used to store secret data in base 64 encoded format&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-679" y="-1492" width="449" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="GKQuukm-Y2J_eNUcY7hA-13" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;attach physical drive\ storage on local drive \ on cloud&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;K8s doesn&#39;t manage data persistance&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-690" y="-1382" width="460" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="t3G8bSZMYmpiF_mvdIgg-0" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Define blueprint for app pods&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;can create deployment to deploy pod replica&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Abstraction of pods&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;for stateless apps&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-684.5" y="-1270" width="460" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="t3G8bSZMYmpiF_mvdIgg-1" value="Stateful Set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-746" y="-1170" width="130" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="t3G8bSZMYmpiF_mvdIgg-2" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;DB can’t be replicate as database storage&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Keep data storage external to K8 cluster&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Maintain mechanism one pod will write database to avoid data inconsistency&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;for Stateful apps&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="fe6ABaOvc7ft7hH_d459-1">
-          <mxGeometry x="-700" y="-1120" width="460" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
