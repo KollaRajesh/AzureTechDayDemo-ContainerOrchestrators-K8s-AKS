@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-15T09:09:37.370Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="747XwQTq-EUX8VE0O-xs" version="13.9.8" type="github" pages="6">
+<mxfile modified="2020-11-15T09:13:16.573Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="fosspZipq3WNmpIGaod7" version="13.9.8" type="github" pages="6">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1819" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -791,7 +791,7 @@
         <mxCell id="GIHWWCE4HEEKvSoa5X5y-126" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Master-3&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" parent="o5c_36QuPgtL-PP_89I7-1" vertex="1">
           <mxGeometry x="665" y="-1730" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cbo0dfAJEQ5ipfndDBVS-0" value="Kubernetes AS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
+        <mxCell id="cbo0dfAJEQ5ipfndDBVS-0" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Kubernetes Architecture&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
           <mxGeometry x="110" y="-2150" width="600" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-hlMwH2DNdf53dxrSOfE-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
