@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-15T09:24:50.809Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="okgp755vzw98RIHA86Ow" version="13.9.8" type="github" pages="6">
+<mxfile modified="2020-11-15T09:31:27.243Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="U2tGvk1mxHUEFTt2GLlW" version="13.9.8" type="github" pages="6">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1819" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -836,13 +836,13 @@
         <mxCell id="-hlMwH2DNdf53dxrSOfE-13" value="&lt;span&gt;etcd&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
           <mxGeometry x="1248.5" y="-1802.5" width="450" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="-hlMwH2DNdf53dxrSOfE-14" value="Container runtime" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
+        <mxCell id="-hlMwH2DNdf53dxrSOfE-14" value="Container Runtime:- This is one of processor in worker node .&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;This will be used to run containers in pods&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
           <mxGeometry x="1249.5" y="-1685.5" width="449" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="-hlMwH2DNdf53dxrSOfE-15" value="&lt;span&gt;Kube-Proxy&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
+        <mxCell id="-hlMwH2DNdf53dxrSOfE-15" value="&lt;span&gt;Kube-Proxy:&amp;nbsp;&lt;/span&gt;&amp;nbsp;This is one of processor in worker node&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Communicate with other pods in the same&amp;nbsp; node and other nodes&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Forwards requests services&amp;nbsp;&lt;/div&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
           <mxGeometry x="1249.5" y="-1569.5" width="450" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="-hlMwH2DNdf53dxrSOfE-16" value="&lt;span&gt;Kubelet&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
+        <mxCell id="-hlMwH2DNdf53dxrSOfE-16" value="&lt;u&gt;Kubelet:&lt;/u&gt;&amp;nbsp; This is one of processor in worker node .&lt;br&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;Interacts with both container&amp;nbsp; and node .&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Starts the pod with container inside.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
           <mxGeometry x="1249.5" y="-1454.5" width="449" height="113" as="geometry" />
         </mxCell>
         <mxCell id="-hlMwH2DNdf53dxrSOfE-17" value="&lt;span&gt;d&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="o5c_36QuPgtL-PP_89I7-1">
