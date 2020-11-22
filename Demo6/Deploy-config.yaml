@@ -1,0 +1,93 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: azure-k8s-corewebapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: azure-k8s-corewebapp
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 5 
+  template:
+    metadata:
+      labels:
+        app: azure-k8s-corewebapp
+    spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      containers:
+      - name: azure-k8s-corewebapp
+        image: aztechdaysacr.azurecr.io/corewebapp:latest
+        env:
+        - name: RunningEnvironment
+          value: "aks"
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: 250m
+          limits:
+            cpu: 500m
+            memory: "128Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: azure-k8s-corewebapp-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: azure-k8s-corewebapp
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: azure-k8s-blazorapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: azure-k8s-blazorapp
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 5 
+  template:
+    metadata:
+      labels:
+        app: azure-k8s-blazorapp
+    spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      containers:
+      - name: azure-k8s-blazorapp
+        image: aztechdaysacr.azurecr.io/blazorserverapp:latest
+        env:
+        - name: RunningEnvironment
+          value: "aks"
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: 250m
+          limits:
+            cpu: 500m
+            memory: "128Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: azure-k8s-blazorapp-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: azure-k8s-blazorapp

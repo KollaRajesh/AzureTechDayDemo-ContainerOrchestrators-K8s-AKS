@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jIBRmscslbz1VONFEi6FHacjbHaTIgPq/j1JKkGe2V8IyAtv08JpVtUEez23c4Z3f9zi0MM/Ws7T47JxUL4Xkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rajesh\\coderep\\AzureTechDayDemo-Kubernetes\\Demo5\\BlazorServerApp\\BlazorServerApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rajesh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+version: '3'
+services:
+  azure-k8s-webapp:
+    build: ./CoreWebApp
+    container_name: azure-k8s-corewebapp
+    environment:
+      RunningEnvironment: k8s
+    ports:
+        - "30080:80"
+  azure-k8s-blazorapp:
+    build: ./BlazorServerApp
+    container_name: azure-k8s-blazorapp
+    environment:
+      RunningEnvironment: k8s
+    ports:
+        - "40080:80"

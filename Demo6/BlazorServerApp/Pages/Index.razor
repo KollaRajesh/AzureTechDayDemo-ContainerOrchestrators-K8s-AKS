@@ -1,0 +1,19 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Hosting;
+@using Microsoft.AspNetCore.Http;
+@inject IWebHostEnvironment HostEnvironment
+@inject IHttpContextAccessor httpContextAccessor
+
+<h1>Hello, </h1>
+
+<h4>@string.Format("I am Blazor server app running on Linux Docker container in {0} environment for demo.", HostEnvironment.EnvironmentName) </h4>
+@*<br />
+    <b>EnvironmentName:@HostEnvironment.EnvironmentName</b>
+    <br />*@
+@*@Environment.GetEnvironmentVariable("ENVIRONMENT");*@
+
+<h4>Running on @Environment.GetEnvironmentVariable("RunningEnvironment") </h4>
+
+<h4>@string.Format("UserHostAddress:{0}", httpContextAccessor.HttpContext.Connection.RemoteIpAddress.ToString())</h4>
+
+
